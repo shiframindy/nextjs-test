@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -8,10 +9,10 @@ export default function Home() {
      <h3 className={styles.name}> Hello I am Mary Shifra Mindy C. Lopez</h3>
 
      <div className={styles.linkHolder}>
-      <link href="./education">education
-      </link>
-      <link href="./about"> about
-      </link>
+      <Link href="./education">education
+      </Link>
+      <Link href="./about"> about
+      </Link>
      </div>
 
     </main>
